@@ -47,4 +47,4 @@ I have included a modified version of the JS library that is currently broken to
 
 - Simply hit the "Test" button and you should get a modified message back demonstrating the failure.
 
-- The final line of the calculation is never taken into account despite it being properly tracked in the XML.
+- The final two liness of the calculation are never taken into account despite it being properly tracked in the XML.
