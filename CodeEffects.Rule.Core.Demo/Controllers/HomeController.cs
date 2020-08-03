@@ -157,8 +157,10 @@ namespace CodeEffects.Rule.Core.Demo.Controllers
 				var calculationShould =
 					patient.CountOfSku("TenDollarSku") * 10 +
 					patient.CountOfSku("TwentyDollarSku") * 20 +
+
+					// These are never included in the calculation for some reason.
 					patient.CountOfSku("FortyDollarSku") * 40 +
-					50; // THIS LINE IS NEVER CALCULATED FOR SOME REASON
+					50;
 
 				result.Output += "The rule SHOULD have calculated to: " + calculationShould;
 			}
