@@ -155,9 +155,9 @@ namespace CodeEffects.Rule.Core.Demo.Controllers
 				result.Output += Environment.NewLine;
 
 				var calculationShould =
-					patient.SkuListContainsCountOfSku("TenDollarSku") * 10 +
-					patient.SkuListContainsCountOfSku("TwentyDollarSku") * 20 +
-					patient.SkuListContainsCountOfSku("FortyDollarSku") * 40; // THIS LINE IS NEVER CALCULATED FOR SOME REASON
+					patient.CountOfSku("TenDollarSku") * 10 +
+					patient.CountOfSku("TwentyDollarSku") * 20 +
+					patient.CountOfSku("FortyDollarSku") * 40; // THIS LINE IS NEVER CALCULATED FOR SOME REASON
 
 				result.Output += "The rule SHOULD have calculated to: " + calculationShould;
 			}

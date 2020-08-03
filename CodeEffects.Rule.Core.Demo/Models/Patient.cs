@@ -110,7 +110,7 @@ namespace CodeEffects.Rule.Core.Demo.Models
         #region Reproduction Items
 
         [Method("Count of SKU")]
-		public int SkuListContainsCountOfSku(string sku)
+		public int CountOfSku(string sku)
 		{
 			return SkuList.Count(x => x.Equals(sku));
 		}

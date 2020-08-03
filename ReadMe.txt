@@ -36,3 +36,15 @@ Implementation details:
 
 
 
+Reproduction Steps
+
+I have already saved an example rule demonstrating the failure that I'm seeing locally.
+I have included a modified version of the JS library that is currently broken to demonstrate that even when the rule loads and calculates, it calculates incorrectly.
+
+- Open the project and begin debug mode.
+
+- Click the rules dropdown and load the "Calculation Failure" rule.
+
+- Simply hit the "Test" button and you should get a modified message back demonstrating the failure.
+
+- The final line of the calculation is never taken into account despite it being properly tracked in the XML.
