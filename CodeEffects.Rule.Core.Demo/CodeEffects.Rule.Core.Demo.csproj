@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CodeEffects.Rule.Editor.Web.Core" Version="5.0.18.2" />
-    <PackageReference Include="CodeEffects.Rule.Engine.Standard.Trial" Version="5.0.9.6" />
+    <PackageReference Include="CodeEffects.Rule.Editor.Web.Core" Version="5.0.24.8" />
+    <PackageReference Include="CodeEffects.Rule.Engine.Standard.Trial" Version="5.0.9.8" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
   </ItemGroup>
 
